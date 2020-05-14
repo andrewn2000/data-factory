@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "dataflow1",
+				"name": "dataflow_ADLS_ASQL",
 				"type": "ExecuteDataFlow",
 				"dependsOn": [],
 				"policy": {
