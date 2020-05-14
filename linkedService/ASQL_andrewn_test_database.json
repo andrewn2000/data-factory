@@ -1,0 +1,12 @@
+{
+	"name": "ASQL_andrewn_test_database",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=andytestserver.database.windows.net;initial catalog=test;user id=admindba.andy",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkFORFJFV04tREFUQUZBQ1RPUllfNDgyYWIxOGUtZmYyMi00MWQyLWFkNzQtNDVjOGY2YWZkOGJiIg0KfQ=="
+		}
+	}
+}
