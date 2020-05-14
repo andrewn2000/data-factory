@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy_7vq",
+				"name": "Copy Themes from HTTP to ADLS",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -51,13 +51,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "SourceDataset_7vq",
+						"referenceName": "HTTP_Lego_Themes",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "DestinationDataset_7vq",
+						"referenceName": "ADLS_Lego_Themes",
 						"type": "DatasetReference"
 					}
 				]

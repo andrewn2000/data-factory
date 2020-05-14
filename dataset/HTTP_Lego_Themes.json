@@ -1,5 +1,5 @@
 {
-	"name": "SourceDataset_7vq",
+	"name": "HTTP_Lego_Themes",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "HTTP_Lego",

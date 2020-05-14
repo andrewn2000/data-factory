@@ -1,0 +1,16 @@
+{
+	"name": "ASQL_Lego_Themes",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ASQL_andrewn_test_database",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "lego",
+			"table": "themes"
+		}
+	}
+}
